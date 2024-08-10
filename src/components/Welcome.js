@@ -1,7 +1,7 @@
 // write code for Welcome component here
 import React from 'react'
 
-export const Welcome = ({name}) => {
+const Welcome = ({name}) => {
   return (
     <div>
         <h1>Hey {name}!</h1>
@@ -9,3 +9,4 @@ export const Welcome = ({name}) => {
     </div>
   )
 }
+export default Welcome;
